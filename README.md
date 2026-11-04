@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-![Screen 1](assets/WhatsApp Image 2026-11-04 at 16.48.02.jpeg)
+![Screen 1](assets/Screenshot_2026-03-09-15-50-52-622_com.example.smart_attendance_app.jpg)
 ![Screen 2](assets/loginscreen2.jpg)
 ![Screen 3](assets/createnewaccount.jpg)
 ![Screen 4](assets/forgotpassword.jpg)
