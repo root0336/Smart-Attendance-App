@@ -60,3 +60,44 @@ Real-Time Attendance Logs & Analytics: Comprehensive attendance monitoring logs 
 Professional PDF Reporting: Admins can export, preview, and share official daily attendance reports compiled directly into formatted PDF documents.
 
 Customizable System Settings: Dedicated configuration panels enabling administrators to adjust schedule constraints, required network SSIDs, location coordinates, and geofencing radiuses in real time.
+
+
+# dependencies:
+    flutter: sdk
+    intl: ^0.19.0
+    network_info_plus: ^6.0.0
+    geolocator: ^13.0.1
+    fl_chart: ^0.70.2
+    csv: ^6.0.0
+    share_plus: ^10.1.4
+    device_info_plus: ^10.1.0
+    pdf: ^3.10.8
+    printing: ^5.11.1
+    path_provider: ^2.1.2
+    qr_flutter: ^4.1.0
+    mobile_scanner: ^5.2.1
+    permission_handler: ^11.3.1
+    cupertino_icons: ^1.0.6
+    firebase_core: ^3.10.1
+    firebase_auth: ^5.4.1
+    cloud_firestore: ^5.6.2
+
+
+# 📁 Project Architecture
+lib/
+├── main.dart                       # Entry point & app initialization
+├── firebase_options.dart           # Auto-generated Firebase configurations
+├── welcome_screen.dart             # Onboarding & logo landing page
+├── login_screen.dart               # Role-based portal access & sign-in
+├── signup_screen.dart              # Student registration interface
+├── forgot_password_screen.dart     # Password recovery interface
+├── admin_dashboard.dart            # Admin control panel
+├── otp_generator_screen.dart       # Class session OTP & countdown timer
+├── admin_qr.dart                   # Dynamic session QR code generation
+├── view_students.dart              # Registered students list view
+├── attendance_log_screen.dart      # Real-time and date-filtered attendance logs
+├── settings_screen.dart            # Schedule, Wi-Fi SSID, and geofence radius settings
+├── report_screen.dart              # Analytics pie charts & PDF report exporter
+├── student_dashboard.dart          # Student check-in hub & multi-check validator
+├── student_otp_screen.dart         # OTP entrance screen & device binding
+└── studentscanqr_screen.dart       # In-app camera QR scanner for check-ins
